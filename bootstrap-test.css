@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@100&family=Raleway:wght@200&display=swap');
+
 .bordure {
     border: 2px solid black;
     height: 50px;
@@ -9,4 +11,20 @@
 
 .inline {
     display: inline-block;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.noHeight {
+    height: fit-content;
+}
+
+h2 {
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+.card-main a:hover {
+    background-color:  palevioletred;
 }
